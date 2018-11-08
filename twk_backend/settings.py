@@ -25,7 +25,7 @@ SECRET_KEY = '(07s0rnh*0khx*9o3b5rq8+ytk_bichf(qa1@zztzb7_ne@(k9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ "*.herokuapp.com" ]
+ALLOWED_HOSTS = [ '*' ]
 
 # django-cors-headers settings
 CORS_ALLOW_CREDENTIALS = True

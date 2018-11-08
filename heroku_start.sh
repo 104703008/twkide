@@ -2,6 +2,8 @@
 bash db_clean_up.sh
 # find . -type d -name __pycache__ -exec rm -r {} \+
 
+pip install -r requirements.txt --ignore-installed
+
 python3 manage.py makemigrations
 python3 manage.py migrate --run-syncdb
 python3 gen_fixtures.py st 3

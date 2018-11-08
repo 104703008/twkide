@@ -99,7 +99,7 @@ services:
       - redis
 
   twk-ide:
-    build: ../twk_backend
+    build: ..
     command: /bin/bash /code/twk_backend_start.sh
     volumes:
       - ./twk:/runner

@@ -1,6 +1,6 @@
 
 bash db_clean_up.sh
-find . -type d -name __pycache__ -exec rm -r {} \+
+# find . -type d -name __pycache__ -exec rm -r {} \+
 
 python3 manage.py makemigrations
 python3 manage.py migrate --run-syncdb
